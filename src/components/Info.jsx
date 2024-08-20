@@ -1,5 +1,8 @@
 import Skill from './Skills';
 
+
+//Ceate CV
+
 function Info() {
   return (
     <section id="Info" className="info bg-[#3f3e77] text-[#e2e8f0] py-[4em]">
