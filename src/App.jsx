@@ -26,5 +26,3 @@ export default App
 
 
 
-// bg-[#efeff2]
-// ea8d67

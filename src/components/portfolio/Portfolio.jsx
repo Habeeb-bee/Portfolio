@@ -6,6 +6,7 @@ import todo from '../img/todo.png';
 import guess from '../img/guess.png';
 import dice from '../img/dice.png';
 import rowzea from '../img/rowzea.png';
+import emploi from '../img/emploi.png';
 
 
 
@@ -15,14 +16,32 @@ function Portfolio () {
       <section className=" py-[5em] px-[1em] bg-[#ffb85c]" id='Portfolio'>
   <h1 className="pb-[3em] text-3xl font-bold text-[#3f3e77] md:text-4xl ">PORTFOLIO</h1>
 
-  <div className="cards p-[1rem]  flex flex-wrap justify-between gap-[3.5em]">
+  <div className="cards p-[1rem] grid md:grid-cols-2 md:justify-evenly  justify-between gap-[3.5em] 
+    ">
+
+<div className="group card1 flex-auto bg-slate-100 rounded-lg relative hover:shadow-2xl  shadow-lg overflow-hidden">
+  <div className="disc h-[60vh] bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
+    <h1 className=" project1  text-2xl font-bold pb-[.5rem] ">Emploi</h1>
+    <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>Great platform for the job seeker that
+      searching for new career heights and passionate about startups </p>
+
+    <img className=" w-full p-[.2rem] bg-cover scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={emploi} alt="" />
+  </div>
+
+   <div className="order bg-black place-content-center text-center duration-1000  opacity-70  absolute w-full h-1/8 group-hover:translate-y-[-100%]  ">
+    <button className=" inset-0  py-3  text-[#ffb85c]
+     md:px-6 md:py-3 md:text-xl  hover:text-white "> <a href="https://habeeb-bee.github.io/Emploi/">
+      OPEN </a></button>
+  </div> 
+</div>
+
 
   <div className="group card1 flex-auto bg-slate-100 rounded-lg relative hover:shadow-2xl  shadow-lg overflow-hidden">
-  <div className="disc bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
+  <div className="disc h-[60vh] bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
     <h1 className=" project1  text-2xl font-bold pb-[.5rem] ">Rex-kitchen</h1>
-    <p className='font-thin text-lg pb-[1.5em]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, earum!</p>
+    <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'> Experience the flavours of the best dishes from anywhere around the globe </p>
 
-    <img className=" h-[40vh] w-full p-[.2rem] bg-cover scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={rex} alt="" />
+    <img className=" w-full p-[.2rem] bg-cover scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={rex} alt="" />
   </div>
 
    <div className="order bg-black place-content-center text-center duration-1000  opacity-70  absolute w-full h-1/8 group-hover:translate-y-[-100%]  ">
@@ -34,11 +53,12 @@ function Portfolio () {
 
 
 <div className="group card1 flex-auto bg-slate-100 rounded-lg relative hover:shadow-2xl  shadow-lg overflow-hidden">
-  <div className="disc bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
-    <h1 className=" project1  text-2xl font-bold pb-[.5rem] ">RowZea</h1>
-    <p className='font-thin text-lg pb-[1.5em]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, earum!</p>
+  <div className="disc h-[60vh] bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
+    <h1 className=" project1  text-2xl font-bold pb-[.5rem] ">RowzEA</h1>
+    <p className='font-thin text-lg pb-[1.5em] h-[4.5em] '>
+        Get the best gadgets you need at your doorstep on the RowzEA website</p>
 
-    <img className="  h-[40vh] w-full p-[.2rem] bg-cover scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={rowzea} alt="" />
+    <img className="  w-full p-[.2rem] bg-cover scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={rowzea} alt="" />
 
   </div>
 
@@ -50,11 +70,13 @@ function Portfolio () {
 </div>
 
 <div className="group card1 flex-auto bg-slate-100 rounded-lg relative hover:shadow-2xl  shadow-lg overflow-hidden">
-  <div className="disc bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
+  <div className="disc h-[60vh] bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
     <h1 className=" project1  text-2xl font-bold pb-[.5rem] ">Bee-Airways</h1>
-    <p className='font-thin text-lg pb-[1.5em]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, earum!</p>
+    <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'> 
+      Plan your next trip around the world on the Bee-Airways website
+    </p>
 
-    <img className=" h-[40vh] w-full scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={bee} alt="" />
+    <img className=" w-full scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={bee} alt="" />
 
   </div>
 
@@ -67,11 +89,12 @@ function Portfolio () {
 
 
 <div className="group card1 flex-auto bg-slate-100 rounded-lg relative hover:shadow-2xl  shadow-lg overflow-hidden">
-  <div className="disc bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
+  <div className="disc h-[60vh] bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
     <h1 className=" project1  text-2xl font-bold pb-[.5rem] ">Expense App</h1>
-    <p className='font-thin text-lg pb-[1.5em]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, earum!</p>
+    <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>
+      Track your expense with the Expense App</p>
 
-    <img className=" h-[40vh] w-full p-[.2rem] scale-105 bg-cover group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={exp} alt="" />
+    <img className=" w-full p-[.2rem] scale-105 bg-cover group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={exp} alt="" />
 
   </div>
 
@@ -84,11 +107,12 @@ function Portfolio () {
 
 
 <div className="group card1 flex-auto bg-slate-100 rounded-lg relative hover:shadow-2xl  shadow-lg overflow-hidden">
-  <div className="disc bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
+  <div className="disc h-[60vh] bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
     <h1 className=" project1  text-2xl font-bold pb-[.5rem] ">Country App</h1>
-    <p className='font-thin text-lg pb-[1.5em]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, earum!</p>
+    <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>
+      Know more about different countries around the globe</p>
 
-    <img className=" h-[40vh] w-full p-[.2rem] bg-cover scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={country} alt="" />
+    <img className=" w-full p-[.2rem] bg-cover scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={country} alt="" />
 
   </div>
 
@@ -100,11 +124,13 @@ function Portfolio () {
 </div>
 
 <div className="group card1 flex-auto bg-slate-100 rounded-lg relative hover:shadow-2xl  shadow-lg overflow-hidden">
-  <div className="disc bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
+  <div className="disc h-[60vh] bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
     <h1 className=" project1  text-2xl font-bold pb-[.5rem] ">Todo-list</h1>
-    <p className='font-thin text-lg pb-[1.5em]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, earum!</p>
+    <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>
+      Plan your schedule with the Todo-list app
+    </p>
 
-    <img className=" h-[40vh] w-full p-[.2rem] bg-cover scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={todo} alt="" />
+    <img className=" w-full p-[.2rem] bg-cover scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={todo} alt="" />
 
   </div>
 
@@ -116,11 +142,12 @@ function Portfolio () {
 </div>
 
 <div className="group card1 flex-auto bg-slate-100 rounded-lg relative hover:shadow-2xl  shadow-lg overflow-hidden">
-  <div className="disc bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
+  <div className="disc h-[60vh] bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
     <h1 className=" project1  text-2xl font-bold pb-[.5rem] ">Dice-game</h1>
-    <p className='font-thin text-lg pb-[1.5em]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, earum!</p>
+    <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>
+      Have fun with your friends on the dice game </p>
 
-    <img className=" h-[40vh] w-full p-[.2rem] bg-cover scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={dice} alt="" />
+    <img className=" w-full p-[.2rem] bg-cover scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={dice} alt="" />
 
   </div>
 
@@ -132,11 +159,13 @@ function Portfolio () {
 </div>
 
 <div className="group card1 flex-auto bg-slate-100 rounded-lg relative hover:shadow-2xl  shadow-lg overflow-hidden">
-  <div className="disc bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
+  <div className="disc h-[60vh] bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
     <h1 className=" project1  text-2xl font-bold pb-[.5rem] ">Guess-game</h1>
-    <p className='font-thin text-lg pb-[1.5em]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, earum!</p>
+    <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>
+      If you think you're good at guessing numbers then
+      you should hop on this</p>
 
-    <img className=" h-[40vh] w-full p-[.2rem] bg-cover scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={guess} alt="" />
+    <img className=" w-full p-[.2rem] bg-cover scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={guess} alt="" />
 
   </div>
 
