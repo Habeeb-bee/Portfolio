@@ -32,12 +32,12 @@ const sendEmail = (e) => {
       <div className="contact-container grid ">
         <form ref={form} action="" onSubmit={sendEmail} className=" contact-form grid  grid-rows-2 gap-[1rem] relative md:grid-rows-none	 ">
             <div className="contact-group grid gap-[1rem] md:grid-cols-2">
-                <input type="text" name="user_name" placeholder="Name" required  className="p-[1.25rem] contact-input  md:h-[4rem]" />
-                <input type="email" name="user_email" placeholder="Email" required className="p-[1.25rem] contact-input md:h-[4rem] " />
+                <input type="text" name="user_name" placeholder="Name" required  className="p-[1.25rem] contact-input placeholder:text-[#3f3e77]  md:h-[4rem]" />
+                <input type="email" name="user_email" placeholder="Email" required className="p-[1.25rem] contact-input placeholder:text-[#3f3e77] md:h-[4rem] " />
 
             </div>
 
-            <textarea name="message" placeholder="Message" required id="" className=" contact-input contact-area h-[10rem] p-[1rem] resize-none md:h-[15rem]"></textarea>
+            <textarea name="message" placeholder="Message" required id="" className=" contact-input contact-area h-[10rem] placeholder:text-[#3f3e77] p-[1rem] resize-none md:h-[15rem]"></textarea>
 
             <button type="submit" className="mt-[1rem] p-[1rem] text-white bg-[#3f3e77] pointer md:w-max md:justify-self-center md:px-[2em]	">Send Message</button>
             <p></p>

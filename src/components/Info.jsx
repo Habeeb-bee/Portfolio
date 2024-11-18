@@ -1,4 +1,5 @@
 import Skill from './Skills';
+import cv from './Adeogun_Habeeb_resume.pdf'
 
 
 //Ceate CV
@@ -20,7 +21,9 @@ function Info() {
       </div>
 
       <button className="mt-[1rem] rounded bg-[#ffb85c] p-[1rem] md:text-xl">
-        Download CV
+       <a href={cv} >
+       Download CV
+        </a> 
       </button>
       <Skill>
           </Skill>
