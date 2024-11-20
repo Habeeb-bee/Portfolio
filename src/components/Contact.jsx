@@ -1,7 +1,7 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import linkedin from './img/linkedin.svg';
-import ig from './img/ig.svg';
+import whatsapp from './img/whatsapp.svg';
 import x from "./img/x.svg";
 
 
@@ -47,8 +47,8 @@ const sendEmail = (e) => {
       <div className="socials text-[#3f3e77] py-[4em] grid justify-items-center  grid-cols-3 gap-[3rem] ">
       <a href="#Home">
         <img  className='w-[10vw] h-[5vh] cursor-pointer' src= {linkedin}  alt="" /></a>
-         <a href="https://www.instagram.com/habeeb_beee/profilecard/?igsh=ZmsyYXM0dzN2eWJs">
-         <img  className='w-[10vw] h-[5vh] cursor-pointer' src= {ig} alt="" /></a>
+         <a href="https://wa.me/qr/HNITN35X4YHEG1">
+         <img  className='w-[10vw] h-[5vh] cursor-pointer' src= {whatsapp} alt="" /></a>
       <a href="https://x.com/ha90094?t=K-az8agFVVgE0yp9tvUfRA&s=09"> 
        <img  className='w-[10vw] h-[5vh] cursor-pointer' src= {x} alt="" /></a> 
 

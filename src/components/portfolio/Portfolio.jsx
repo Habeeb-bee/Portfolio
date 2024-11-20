@@ -22,8 +22,8 @@ function Portfolio () {
 <div className="group card1 flex-auto bg-slate-100 rounded-lg relative hover:shadow-2xl  shadow-lg overflow-hidden">
   <div className="disc h-[60vh] bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
     <h1 className=" project1  text-2xl font-bold pb-[.5rem] ">Emploi</h1>
-    <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>Great platform for the job seeker that
-      searching for new career heights and passionate about startups </p>
+    <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>A Great platform for the job seekers
+    searching for new career heights. </p>
 
     <img className=" w-full  object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={emploi} alt="" />
   </div>
