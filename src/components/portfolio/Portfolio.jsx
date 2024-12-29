@@ -1,12 +1,4 @@
-import exp from '../img/expense.png';
-import rex from '../img/rex.png';
-import country from '../img/country.png';
-import bee from '../img/bee.png';
-import todo from '../img/todo.png';
-import guess from '../img/guess.png';
-import dice from '../img/dice.png';
-import rowzea from '../img/rowzea.png';
-import emploi from '../img/emploi.png';
+
 
 
 
@@ -25,7 +17,7 @@ function Portfolio () {
     <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>A Great platform for the job seekers
     searching for new career heights. </p>
 
-    <img className=" w-full  object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={emploi} alt="" />
+    <img className=" w-full  object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src="assets/emploi.png" alt="" />
   </div>
 
    <div className="order bg-black place-content-center text-center duration-1000  opacity-70  absolute w-full h-1/8 group-hover:translate-y-[-100%]  ">
@@ -41,7 +33,7 @@ function Portfolio () {
     <h1 className=" project1  text-2xl font-bold pb-[.5rem] ">Rex-kitchen</h1>
     <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'> Experience the flavours of the best dishes from anywhere around the globe </p>
 
-    <img className=" w-full object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={rex} alt="" />
+    <img className=" w-full object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src="assets/rex.png" alt="" />
   </div>
 
    <div className="order bg-black place-content-center text-center duration-1000  opacity-70  absolute w-full h-1/8 group-hover:translate-y-[-100%]  ">
@@ -58,7 +50,7 @@ function Portfolio () {
     <p className='font-thin text-lg pb-[1.5em] h-[4.5em] '>
         Get the best gadgets you need at your doorstep on the RowzEA website</p>
 
-    <img className="  w-full object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={rowzea} alt="" />
+    <img className="  w-full object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src="assets/rowzea.png" alt="" />
 
   </div>
 
@@ -76,7 +68,7 @@ function Portfolio () {
       Plan your next trip around the world on the Bee-Airways website
     </p>
 
-    <img className=" w-full object-fit h-full scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={bee} alt="" />
+    <img className=" w-full object-fit h-full scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src="assets/bee.png" alt="" />
 
   </div>
 
@@ -94,7 +86,7 @@ function Portfolio () {
     <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>
       Track your expense with the Expense App</p>
 
-    <img className=" w-full p-[.2rem] object-fit h-full scale-105 bg-cover  group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={exp} alt="" />
+    <img className=" w-full p-[.2rem] object-fit h-full scale-105 bg-cover  group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src="assets/exp.png" alt="" />
 
   </div>
 
@@ -112,7 +104,7 @@ function Portfolio () {
     <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>
       Know more about different countries around the globe</p>
 
-    <img className=" w-full object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={country} alt="" />
+    <img className=" w-full object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src="assets/country.png" alt="" />
 
   </div>
 
@@ -130,7 +122,7 @@ function Portfolio () {
       Plan your schedule with the Todo-list app
     </p>
 
-    <img className=" w-full object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={todo} alt="" />
+    <img className=" w-full object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src="assets/todo.png" alt="" />
 
   </div>
 
@@ -147,7 +139,7 @@ function Portfolio () {
     <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>
       Have fun with your friends on the dice game </p>
 
-    <img className=" w-full object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={dice} alt="" />
+    <img className=" w-full object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src="assets/dice.png" alt="" />
 
   </div>
 
@@ -165,7 +157,7 @@ function Portfolio () {
       If you think you're good at guessing numbers then
       you should hop on this</p>
 
-    <img className=" w-full object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src={guess} alt="" />
+    <img className=" w-full object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src="assets/guess.png" alt="" />
 
   </div>
 

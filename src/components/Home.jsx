@@ -1,4 +1,3 @@
-import home from "./img/home.png";
 
 function Home() {
   return (
@@ -10,7 +9,7 @@ function Home() {
           <h2 className="text-xl md:text-2xl lg:text-3xl" >a Frontend <span className="text-[#888df5] ">developer</span></h2>
         </div>
 
-        <img className="home-img px-[5em] pb-[2em] w-[75vw] md:w-[50vw]  " src={home} alt="" /> 
+        <img className="home-img px-[5em] pb-[2em] w-[75vw] md:w-[50vw]  " src="assets/home.png" alt="" /> 
       </div>
 
       
