@@ -86,7 +86,7 @@ function Portfolio () {
     <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>
       Track your expense with the Expense App</p>
 
-    <img className=" w-full p-[.2rem] object-fit h-full scale-105 bg-cover  group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src="assets/exp.png" alt="" />
+    <img className=" w-full p-[.2rem] object-fit h-full scale-105 bg-cover  group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src="assets/expense.png" alt="" />
 
   </div>
 
