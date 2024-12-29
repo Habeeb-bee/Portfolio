@@ -13,6 +13,21 @@ function Portfolio () {
 
 <div className="group card1 flex-auto bg-slate-100 rounded-lg relative hover:shadow-2xl  shadow-lg overflow-hidden">
   <div className="disc h-[60vh] bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
+    <h1 className=" project1  text-2xl font-bold pb-[.5rem] ">Krypton</h1>
+    <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>Krypton is an ever-expanding ecosystem of connected apps and services, built for a decentralized future.</p>
+
+    <img className=" w-full  object-fit h-full p-[.2rem] bg-cover  scale-105 group-hover:rotate-1 group-hover:scale-110 group-hover:bg-black/15 duration-500  " src="assets/krypton.png" alt="" />
+  </div>
+
+   <div className="order bg-black place-content-center text-center duration-1000  opacity-70  absolute w-full h-1/8 group-hover:translate-y-[-100%]  ">
+    <button className=" inset-0  py-3  text-[#ffb85c]
+     md:px-6 md:py-3 md:text-xl  hover:text-white "> <a href="https://krypton-dao.vercel.app/">
+      OPEN </a></button>
+  </div> 
+</div>
+
+<div className="group card1 flex-auto bg-slate-100 rounded-lg relative hover:shadow-2xl  shadow-lg overflow-hidden">
+  <div className="disc h-[60vh] bg-[#2f3a3f] text-[#e2e8f0] text-left  px-[.5em] pt-[1em]  ">
     <h1 className=" project1  text-2xl font-bold pb-[.5rem] ">Emploi</h1>
     <p className='font-thin text-lg pb-[1.5em] h-[4.5em]'>A Great platform for the job seekers
     searching for new career heights. </p>

@@ -41,7 +41,12 @@ function Skill() {
 
         <div className="skill-box grid place-items-center	 transition-transform hover:-translate-y-1">
         <img className="   h-[10vh]  pb-[1em]  " src="assets/react.svg" alt="" />
-        <span className="skill-name  text-sm">REACT</span>
+        <span className="skill-name  text-sm">REACTJS</span>
+        </div>
+
+        <div className="skill-box grid place-items-center	 transition-transform hover:-translate-y-1">
+        <img className="   h-[10vh]  pb-[1em]  " src="assets/nextjs.svg" alt="" />
+        <span className="skill-name  text-sm">NEXTJS</span>
         </div>
      </div>
 
